@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    color: white;
+}
+
+.main {
+    height: 785px;
+    background: url("../img/bg.jpg") center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+
+.main h1 {
+    font-size: 64px;
+    text-align: center;
+}
+
+.main-child {
+    z-index: 1;
+}
+
+.main span {
+    font-size: 26px;
+}
+
+.main p {
+    font-size: 19px;
+}
+
+.login {
+    display: flex;
+    align-self: start;
+}

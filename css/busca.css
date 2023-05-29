@@ -1,0 +1,17 @@
+html, body {
+    text-align: center;
+    background: url("../img/bg.jpg") center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+.assinatura {
+    margin: 50px;
+    color: red;
+    font-size: 150%;
+    font-weight: bolder;
+
+}
